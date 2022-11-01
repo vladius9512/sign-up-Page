@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#wrapper {
+    display: flex;
+    max-width: 70%;
+}
+
+#left-side {
+    background-image: url("image/image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-width: 45%;
+}
+
+
+.banner {
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.2;
+    top:25vh;
+    min-height: 50px;
+}
+
+.credits {
+    position: fixed;
+    top: 95vh;
+    left:30%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+}
+
+a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#right-side {
+    background-color: aliceblue;
+}
