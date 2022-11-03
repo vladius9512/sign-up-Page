@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #c8b7a6;
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -14,32 +14,123 @@ body {
 #left-side {
     background-image: url("image/image.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     min-width: 45%;
+    position:relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 .banner {
-    position: relative;
-    background-color: rgb(255, 0, 0);
-    opacity: 0.2;
-    top:25vh;
-    min-height: 50px;
+    background-color: rgba(51, 51, 51,0.2);
+    top:25%;
+    position:absolute;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
 
 .credits {
-    position: fixed;
-    top: 95vh;
-    left:30%;
+    display: flex;
+    justify-content: center;
     color: aliceblue;
-    transform: translate(-50%, -50%);
+    top:90%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
 }
 
-a:visited {
+.link:visited {
     text-decoration: none;
     color: aliceblue;
 }
 
 #right-side {
-    background-color: aliceblue;
+    background-color: #B6C199;
 }
+
+.service{
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+}
+
+.call_action {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.form-wrapper {
+    max-width: 100vh;
+    min-width: max-content;
+    border: 1px;
+    border-style: solid hidden solid hidden;
+    border-color: #aeb98f;
+    box-shadow: 0px 5px #404435;
+    background-color: #aeb98f;
+}
+
+form{
+    display:flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.legend {
+    margin-left: 25px;
+    font-weight: 600;
+}
+fieldset{
+    max-width: 100px;
+    border: 0px;
+    margin-left: 10px;
+}
+
+label {
+    margin-top:10px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px;
+    padding: 5px;
+}
+
+input:focus {
+    outline: 0;
+    box-shadow: 1px 5px #4c4d4c;
+    border: 3px solid #4d74aa;
+}
+
+.create-button {
+    padding: 10px 40px 10px 40px;
+    margin: 25px;
+    background-color: #FEE36E;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 1px 1px #ceb92c;
+    color: rgb(0, 0, 0);
+    font-weight:700;
+}
+
+.log-in {
+    margin-left: 25px;
+}
+
+.log:link {
+    text-decoration: none;
+    color: #4d74aa;
+}
+.log:visited {
+    text-decoration: none;
+    color: #4d74aa;
+}
+
